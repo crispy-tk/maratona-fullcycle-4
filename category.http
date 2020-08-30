@@ -1,0 +1,35 @@
+POST http://localhost:3000/categories
+Content-Type: application/json
+
+{
+    "name": "Categorias10 Jornal"
+}
+
+###
+GET http://localhost:3000/categories
+
+
+###
+GET http://localhost:3000/categories/1
+
+
+###
+PUT http://localhost:3000/categories/5
+Content-Type: application/json
+
+{
+    "id": "5",
+    "name": "Categorias"
+}
+
+###
+DELETE  http://localhost:3000/categories/4
+
+
+###
+POST  http://localhost:3000/categories/1
+Content-Type: application/json
+
+{
+    "name": "Nome Dois"
+}

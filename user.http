@@ -1,0 +1,38 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Vanderlei SV",
+    "email": "vands.sv@gmail.com"
+}
+
+###
+GET http://localhost:3000/users
+
+
+###
+GET http://localhost:3000/users/1
+
+
+###
+PUT http://localhost:3000/users/5
+Content-Type: application/json
+
+{
+    "id": "5",
+    "name": "Vands OutroDeNovo",
+    "email": "vands.novo@gmail.com"
+}
+
+###
+DELETE  http://localhost:3000/users/4
+
+
+###
+POST  http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+    "name": "adfasdf",
+    "email": "teste@teste.com"
+}
